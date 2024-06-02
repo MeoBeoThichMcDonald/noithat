@@ -1,0 +1,92 @@
+header{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(68, 218, 255);
+    padding: 14px;
+}
+#nav_top{
+    width: 100%;
+    height: 40px;
+}
+#logo{
+    position: absolute;
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+}
+#logo:hover{
+    text-shadow: 20px;
+}
+#searchInput{
+    position: absolute;
+    width: 400px;
+    margin-left: 20%;
+    margin-right:30%;
+}
+.header__logo{
+    width: 20px;
+}
+#banner1{
+    position: absolute;
+    width: 100%;
+}
+.cart{
+    border: none;
+    border-radius:10px ;
+    margin-left: 63%;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 119, 255);
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.bi-cart{
+    margin-bottom: -10px;
+    align-items: center;
+    text-align: center;
+}
+.sidleft{
+    height: 750px;
+    width: 300px;
+    background-color: white;
+    border: 1px #ccc solid;
+    margin-top: 20px;
+    float: left;
+}
+.name-w{
+    text-decoration: none;
+    color: black;
+}
+.name-w:hover{
+    color: #0084ff;
+}
+.dropdown{
+    border-radius: 10px;
+    border: 1px #006eff solid;
+}
+.dropdown:hover{
+    background-color: #0011ff;
+    color: rgb(217, 255, 0);
+}
+.sp-vip{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    
+}
+.sp-vip:hover{
+    color: #0084ff;
+}
+.img-icon{
+    margin-left: 20px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Hiệu ứng chuyển đổi */
+    width: 60px;
+}
+.img-icon:hover{
+    transform: scale(1.2); /* Phóng to ảnh khi di chuột vào */
+}
+
